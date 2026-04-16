@@ -10,6 +10,3 @@ A sleek, controlled-environment dashboard for distributing and analyzing cyberse
 
 ## Deployment Status
 This project is statically built using HTML, CSS, and JS. It is fully ready to be deployed on **GitHub Pages**, Vercel, or Netlify without any build step.
-
-> **Note on File Hosting:**
-> Please ensure that the `.exe` files added to this repository comply with your host's Terms of Service. Uploading live malware to GitHub might trigger their automated security sweeps and result in repository restrictions. It is advised to use password-protected `.zip` files (e.g., password "infected") if hosting real malware samples for educational security analysis. 
