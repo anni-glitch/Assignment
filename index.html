@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Malware Research Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="particles-js"></div>
+    <div class="container">
+        <header>
+            <h1 class="glitch-title" data-text="Malware Research Hub">Malware Research Hub</h1>
+            <p class="subtitle">Controlled Environment For Security Analysis</p>
+        </header>
+
+        <main class="dashboard-grid">
+            <!-- Virus Card -->
+            <div class="card" data-tilt>
+                <div class="card-icon virus-icon">
+                    <i class="fa-solid fa-bug"></i>
+                </div>
+                <div class="card-content">
+                    <h2>Computer Virus</h2>
+                    <div class="badge-container">
+                        <span class="badge threat-high">High Threat</span>
+                        <span class="badge type-repl">Replicator</span>
+                    </div>
+                    <p>A type of malicious software that, when executed, replicates itself by modifying other programs and inserting its own code. Used primarily to disrupt system operations or gain unauthorized access to systems.</p>
+                </div>
+                <div class="card-action">
+                    <a href="virus.zip" download="virus.zip" class="download-btn virus-btn">
+                        <i class="fa-solid fa-download"></i> Download virus.zip
+                    </a>
+                </div>
+            </div>
+
+            <!-- Ransomware Card -->
+            <div class="card" data-tilt>
+                <div class="card-icon ransomware-icon">
+                    <i class="fa-solid fa-user-lock"></i>
+                </div>
+                <div class="card-content">
+                    <h2>Ransomware</h2>
+                    <div class="badge-container">
+                        <span class="badge threat-critical">Critical Threat</span>
+                        <span class="badge type-crypto">Crypto</span>
+                    </div>
+                    <p>Malware that employs encryption to hold a victim's information at ransom. A user's critical data is encrypted so that they cannot access files or applications. A ransom is then demanded to provide access.</p>
+                </div>
+                <div class="card-action">
+                    <a href="ransomware.zip" download="ransomware.zip" class="download-btn ransomware-btn">
+                        <i class="fa-solid fa-download"></i> Download ransomware.zip
+                    </a>
+                </div>
+            </div>
+
+            <!-- RAT Card -->
+            <div class="card" data-tilt>
+                <div class="card-icon rat-icon">
+                    <i class="fa-solid fa-network-wired"></i>
+                </div>
+                <div class="card-content">
+                    <h2>Remote Access Trojan (RAT)</h2>
+                    <div class="badge-container">
+                        <span class="badge threat-severe">Severe Threat</span>
+                        <span class="badge type-ctrl">Backdoor</span>
+                    </div>
+                    <p>A specific type of malware designed to give a remote attacker covert administrative control over the target computer. They are commonly delivered through phishing attacks or embedded in seemingly legitimate software.</p>
+                </div>
+                <div class="card-action">
+                    <a href="rat.zip" download="rat.zip" class="download-btn rat-btn">
+                        <i class="fa-solid fa-download"></i> Download rat.zip
+                    </a>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.8.0/vanilla-tilt.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
